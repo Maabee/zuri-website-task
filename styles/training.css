@@ -157,7 +157,7 @@ hr {
   position: relative;
 }
 
-.card:hover {
+.card-1:hover {
   transform: translateY(-20px);
   transition: 0.5ms;
 }
@@ -212,11 +212,11 @@ hr {
 }
 
 .section5-icons {
-  width: 40%;
+  width: 45%;
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  margin-left: 50px;
+  /* margin-left: 30px; */
   cursor: no-drop;
 }
 
@@ -235,6 +235,205 @@ hr {
   left: 30px;
   top: 20px;
 }
+
+/* scope of the programme */
+
+.scope-img{
+  width: 150px;
+  position: absolute;
+  left: 520px;
+  top: 200px;
+}
+
+.scope-con {
+  position: relative; 
+  }
+
+  /* FAQS */
+.questions{
+    padding-left: 400px;
+}
+
+.questions-btn {
+  padding: 8px 50px;
+  color: #fff;
+  background-color: #e7332b;
+  border: 1px solid #e7332b;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight:400;
+}
+.btn-div{
+  position: relative;
+}
+.twit-svg {
+  background-color: none;
+  position: absolute;
+  left: 33px;
+  top: 10px;
+}
+
+.faq-img{
+  width: 150px;
+  position: absolute;
+  left: 150px;
+  top: 5px;
+}
+
+.faq-con {
+  position: relative; 
+  }
+
+  .gq{
+    margin-bottom: 0;
+  }
+
+  /* programme structure */
+
+  .stucture-con {
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+  }
+  .triangle{
+    position: absolute;
+    left: -45px;
+    top: 600px;
+    width: 150px;
+  }
+
+  .star {
+    position: absolute;
+    right: 100px;
+    top: 5%;
+    width: 140px;
+  }
+
+  .circle-box2{
+    position: absolute;
+    bottom: -70px;
+    right: 36px;
+    width: 200px;
+    
+  }
+
+  .a-zuri {
+    color: #fff;
+  }
+
+  .a-zuri:hover {
+    color: #fff;
+  }
+
+  .box1, .box2{
+    background-color: rgb(27, 26, 32);
+    color: #fff;
+    font-family: Graphik;
+    width: 100%;
+    margin-right: 50px;
+    border-radius: 50px;
+    box-shadow: 0 31px 60px rgba(231,51,43,.2);
+    position: relative;
+  }
+.time {
+  position: absolute;
+  bottom: 60px;
+  right: 30px;
+  width: 180px;
+}
+
+.hour {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 120px;
+}
+
+.focus-li {
+  position: relative;
+}
+
+.focus {
+  position: absolute;
+  right: 300px;
+  width: 15px;
+}
+
+.focus-1, .focus-2 {
+  width: 15px;
+}
+
+/* cta */
+
+.cta-con {
+  background-color: #e7332b;
+  color: #fff;
+  position: relative;
+  border-radius: 30px;
+  height: 400px;
+  margin-bottom: 100px;
+  margin-top: 200px;
+}
+
+.main{
+  position: absolute;
+  width: 140px;
+  height: 130px;
+  right: 0;
+  bottom: 0;
+}
+
+.round {
+  position: absolute;
+  width: 170px;
+  left: 100px;
+  top: 70px;
+}
+
+.curve2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 130px;
+}
+
+.bend1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+}
+
+.cta-btn {
+  padding: 8px 40px;
+  background-color: #fff;
+  color:   #e7332b;
+  border: 1px solid #e7332b;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight:400;
+}
+
+.circle-left {
+  position: absolute;
+  top: -130px;
+  left: 0;
+  width: 130px;
+}
+
+@media (max-width: 930px) {
+  .box-container {
+      flex-direction: column;
+      gap: 40px;
+  }
+  .focus {
+    position: absolute;
+    right: 650px;
+    width: 15px;
+  }
+}
+
 
 
 
