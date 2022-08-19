@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+ }
 
 body {
     font-family: 'Outfit', sans-serif;
@@ -170,7 +170,7 @@ footer {
 
 .sm-links {
     display: flex;
-    gap: 10px;
+    margin-left: 0;
     margin-top: 10px;
 }
 
